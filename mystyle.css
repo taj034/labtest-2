@@ -1,0 +1,130 @@
+body{background-color: rgb(127, 251, 255);}
+
+span{ font-size:30px;}
+
+headingL{
+	height:50px;
+	width:40px;
+}
+
+ul { position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1669a0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #2319191e;
+}
+.navbar {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .login-register {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .form button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .form p {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .form ul li {
+    margin-bottom: 5px;
+  }
+  
+  .academic-info {
+    width: 300px;
+  }
+  
+  .academic-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .academic-info p {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .academic-info ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .academic-info ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    background-color: #0a5c7f;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+  }
+  
